@@ -1,0 +1,30 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% comment %} <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://jsonplaceholder.typicode.com https://tndingress.staginglamma.link;"> {% endcomment %}
+
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/index_script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 >{{ title }}</h1>    
+        <span id="postResponse"></span>
+        <ul>
+          {% for post in posts %}
+            <li>
+              <a href="/post/{{ post.id }}">{{ post.title }}</a> - {{ post.date }}
+              <a href="/edit/{{ post.id }}">Edit</a> | 
+              <a href="/delete/{{ post.id }}">Delete</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <a href="/create">Create a new post</a></div>
+</body>
+</html>

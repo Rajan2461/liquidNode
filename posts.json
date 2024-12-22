@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Jubilant Trip",
+    "content": "SEAMLESS BOOKING,UNFORGOTTABLE JOURNEYS booking",
+    "color": "#cc6666",
+    "date": "19/8/2024"
+  },
+  {
+    "id": 3,
+    "title": "Make my Trip",
+    "content": "Start your trip on Make my Trip",
+    "color": "#777777",
+    "date": "19/8/2024"
+  },
+  {
+    "id": 4,
+    "title": "Trip.com",
+    "content": "trip ooo trip",
+    "color": "#444445",
+    "date": "19/8/2024"
+  }
+]
